@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap);
+.main--body{
+  background-color: rgb(71, 140, 140);
+}
+.header{
+    display: flex;
+    color: rgb(67, 67, 67);
+    font-family:'Courier New', Courier, monospace;
+    height: 90px;
+    background-image: linear-gradient(rgb(67, 67, 67), rgb(67, 67, 67));
+    
+}
+
+.main--img{
+    opacity: 0.8;
+    height: 300px;
+    margin-left: 5px;
+}
+.main--{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    margin-left: 250px;
+    grid-gap: 2rem;
+    width: 100%;
+}
+.main--text{
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.header-img{
+    margin-left: 540px;
+    width: 50px;
+    height: 70px;
+}
+.header-text{
+    text-decoration-line: none;
+    color: #969696;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.header--nav{
+    height: 50px;
+    background-image: linear-gradient(rgb(67, 67, 67), rgb(71, 140, 140));
+}
+.box {
+    padding-left: 500px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  
+  .box select {
+    background-color: #b7babc;
+    color: rgb(34, 34, 34);
+    width: 220px;
+    border: 2px solid #555;
+    font-size: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    border-radius: 15px;
+    height: 40px;
+  }
+  
+  .box::before {
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 45px;
+    color: rgb(34, 34, 34);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .box:hover::before {
+    color: rgb(34, 34, 34);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box select option {
+    padding: 30px;
+  }
+  button {
+    background-color: #b7babc; 
+    border: 2px solid #555;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    font-size: 15px;
+    margin-left: 5px;
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  }
+  input[type=text] {
+    background-color: #b7babc;
+    color: rgb(34, 34, 34);
+    border: none;
+    width: 200px;
+    height:22px;
+    border: 2px solid #555;
+    margin-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    border-radius: 15px;
+    font-size: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  }
+  .footer--1 {
+    display: flex;
+    align-items: center;
+    background-color: #241b04;
+    height: 20px;
+    padding: 30px 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer--text{
+      color: #ffffff ;
+      margin-left: 10px;
+  }
+  .footer--contact{
+    color: #ffffff ;
+    margin-left: 930px;
+  }
+  .reservation-button {
+    width: 200px;
+    margin-left: 500px
+  }
